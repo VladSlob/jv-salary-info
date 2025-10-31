@@ -34,10 +34,7 @@ public class Employees {
         return new ArrayList<>();
     }
 
-    public int getGeneralOutcome(String name) {
-        for (EmployeeRecord record : employeeRecords) {
-            if (record.getName().equals(name)) {
-                return record.generalOutcome;
+   
             }
         }
         return 0;
