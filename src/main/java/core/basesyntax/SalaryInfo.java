@@ -1,10 +1,7 @@
 package core.basesyntax;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
-public class SalaryInfo {
-    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
     private static final String INPUT_DELIMITER = " ";
     private static final String OUTPUT_DELIMITER = " - ";
     private static final int DATE_INDEX = 0;
